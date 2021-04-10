@@ -1,15 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .frame {
-  align-self: center;
+  position: relative;
   background-color: snow;
   width: 300px;
   height: 250px;
-  box-shadow: 5px;
-  background-image: url(https://mar.prod.image.rndtech.de/var/storage/images/maz/brandenburg/is-terrorist-im-beschaulichen-bliesdorf/426187292-16-ger-DE/IS-Terrorist-im-beschaulichen-Bliesdorf_big_teaser_article.jpg);
-  background-size: 70%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Moeglin_Gutspark.jpg/1200px-Moeglin_Gutspark.jpg);
+  background-size: 75%;
   background-repeat: no-repeat;
-  background-position: center 70%;
+  background-position: center 40%;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px gray;
+}
+p {
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  text-align: center;
+  color: midnightblue;
+  opacity: 70%;
+  position: relative;
+  top: 195px;
 }
